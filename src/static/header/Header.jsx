@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,11 +8,12 @@ const Header = () => {
         <img src="./google-logo-about.svg" alt="Logo" />
       </section>
       <section className="navigation">
-
-        <div >
-          <nav className="aboutNav">About</nav>
-          <div className="rule"></div>
-        </div>
+        <Link to="/">
+          <div>
+            <nav className="aboutNav">About</nav>
+            <div className="rule"></div>
+          </div>
+        </Link>
 
         <nav>Products</nav>
         <nav>Company Info</nav>

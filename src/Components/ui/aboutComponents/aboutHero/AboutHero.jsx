@@ -14,13 +14,16 @@ const AboutHero = () => {
         </p>
       </div>
 
-      <div
-        // style={{
-        //   backgroundColor
-        // }}
+      {/* <div
+        style={{
+          backgroundColor,
+          red,
+        }}
       >
-        <button>Learn More</button>
-      </div>
+        {" "}
+      </div> */}
+
+      <button>Learn More</button>
     </div>
   );
 };

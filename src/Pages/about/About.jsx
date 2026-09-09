@@ -1,7 +1,9 @@
+import AboutHero from "../../Components/ui/aboutComponents/aboutHero/AboutHero"
+
 const About = () => {
     return (
         <div>
-            <h1></h1>
+            <AboutHero/>
         </div>
     )
 }

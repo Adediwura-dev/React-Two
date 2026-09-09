@@ -1,0 +1,10 @@
+.button {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  padding: 15px 15px;
+  background-color: #1a73e8;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+}

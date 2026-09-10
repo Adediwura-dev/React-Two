@@ -12,18 +12,10 @@ const AboutHero = () => {
           Our newest Gemini models deliver next-generation intelligence for
           agentic workflows and cybersecurity.
         </p>
+
+        <Button name="Learn more" />
+
       </div>
-
-      {/* <div
-        style={{
-          backgroundColor,
-          red,
-        }}
-      >
-        {" "}
-      </div> */}
-
-      <button>Learn More</button>
     </div>
   );
 };

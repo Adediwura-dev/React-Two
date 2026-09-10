@@ -1,0 +1,27 @@
+.sectionThreeContainer {
+  background-color: #f3f5fb;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-weight: 400;
+    color: rgb(32, 33, 36);
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}

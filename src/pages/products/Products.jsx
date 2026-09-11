@@ -1,7 +1,10 @@
+import "./Products.css";
+import ProductsLogo from "../../components/ui/productsComponent/productsLogo/ProductsLogo";
+
 const Products = () => {
     return (
         <div>
-            <h1>Products</h1>
+            <ProductsLogo/>
         </div>
     )
 }

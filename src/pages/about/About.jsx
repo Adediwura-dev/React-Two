@@ -1,7 +1,9 @@
 import AboutHero from "../../components/ui/aboutComponents/aboutHero/AboutHero";
 import AboutSection1 from "../../components/ui/aboutComponents/aboutSection1/AboutSection1";
 import AboutSection2 from "../../components/ui/aboutComponents/aboutSection2/aboutSectionTwo";
-import AboutSection3 from "../../components/ui/aboutComponents/aboutSection3/aboutSection";
+import AboutSection3 from "../../components/ui/aboutComponents/aboutSection3/aboutSection3";
+import AboutSection4 from "../../components/ui/aboutComponents/aboutSection4/aboutSection4";
+
 const About = () => {
   return (
     <div>
@@ -9,6 +11,7 @@ const About = () => {
       <AboutSection1 />
       <AboutSection2/>
       <AboutSection3/>
+      <AboutSection4/>
     </div>
   );
 };

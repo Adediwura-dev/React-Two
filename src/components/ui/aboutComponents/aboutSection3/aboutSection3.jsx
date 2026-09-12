@@ -1,4 +1,4 @@
-import "./aboutSection3.css";
+import "./AboutSection3.css";
 import icon from "../../../../assets/icon2.png";
 import Button from "../../../reusable/buttons/Button";
 // import sectionThreeImage from "../../../../assets/Image5.webp";

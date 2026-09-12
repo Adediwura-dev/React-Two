@@ -14,8 +14,10 @@ const Header = () => {
             <div className="rule"></div>
           </div>
         </Link>
+        <Link to="/products">
+          <nav>Products</nav>
+        </Link>
 
-        <nav>Products</nav>
         <nav>Company Info</nav>
         <nav>News</nav>
       </section>

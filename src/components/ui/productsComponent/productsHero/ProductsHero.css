@@ -1,0 +1,46 @@
+.ProductsHeroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+
+  h1 {
+    font-weight: 400;
+    color: rgb(32, 33, 36);
+    font-size: 60px;
+    line-height: 72px;
+    margin-top: 0;
+    max-width: 850px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.button-box {
+  display: flex;
+  gap: 20px;
+  padding: 15px 55px;
+  border-radius: 50px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+
+  div {
+    font-weight: 500;
+    color: rgb(32, 33, 36);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(32, 33, 36);
+  }
+}

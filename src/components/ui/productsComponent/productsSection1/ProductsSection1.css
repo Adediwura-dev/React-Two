@@ -1,0 +1,10 @@
+.productsSectionOneContainer {
+  /* padding: 10px 0; */
+  /* background-color: #f3f5fb; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 0;
+  padding-bottom: 20px;
+}

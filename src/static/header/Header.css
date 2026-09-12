@@ -11,6 +11,7 @@
   align-items: center;
   gap: 25px;
   color: rgb(32, 33, 36);
+
 }
 
 .rule {
@@ -30,5 +31,6 @@
 .aboutNav{
     padding-bottom: 10px;
     padding-top: 15px;
+    text-decoration: none;
 }
 

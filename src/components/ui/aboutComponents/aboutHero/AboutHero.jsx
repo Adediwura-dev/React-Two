@@ -1,5 +1,5 @@
 import "./AboutHero.css";
-import Button from "../../../reusable/buttons/Button";
+import Button from "../../../../Components/reusable/buttons/Button";
 
 const AboutHero = () => {
   return (

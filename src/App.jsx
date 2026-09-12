@@ -1,4 +1,4 @@
-import About from "./pages/about/About";
+import About from "./Pages/about/About";
 import Header from "./static/header/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Company from "./pages/company/Company";
@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/company" element={<Company />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </div>
   );

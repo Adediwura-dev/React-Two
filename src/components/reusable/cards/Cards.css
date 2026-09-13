@@ -8,12 +8,22 @@
   background-color: white;
   border-radius: 5px;
 
+  .desc2 {
+    font-weight: 400;
+    color: rgb(95, 99, 104);
+    font-size: 16px;
+    line-height: 24px;
+    min-width: 370px;
+    margin-top: 0;
+  }
+
   p {
     font-weight: 400;
     color: rgb(32, 33, 36);
     font-size: 20px;
     line-height: 28px;
     padding: 0 25px;
+    margin-bottom: 10px;
   }
 }
 

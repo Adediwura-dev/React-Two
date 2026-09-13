@@ -1,17 +1,18 @@
 .ProductsSection3-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: 1fr 1fr;
+  column-gap: 20px; */
 }
 
 .ProductsSection3-left {
-  grid-template-rows: 2fr 1fr;
+  /* grid-template-rows: 2fr 1fr;
   display: grid;
-  gap: 10px;
+  gap: 10px; */
 }
 
 .ProductsSection3-right {
-  grid-template-rows: 1fr 2fr;
+  /* grid-template-rows: 1fr 2fr;
   display: grid;
-  gap: 10px;
+  gap: 10px; */
 }

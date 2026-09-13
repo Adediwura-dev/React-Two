@@ -10,6 +10,11 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 500 bold;
+  cursor: pointer;
+}
+.button:hover{
+  background-color:rgb(24, 90, 188);
+;
 }
 
 @media (max-width: 500px) {

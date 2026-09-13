@@ -1,0 +1,20 @@
+.ps5Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  cursor: pointer;
+  padding-bottom: 60px;
+
+  h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(32, 33, 36);
+  }
+}
+
+.gadgets {
+  display: flex;
+  gap: 30px;
+}

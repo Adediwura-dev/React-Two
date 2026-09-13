@@ -41,7 +41,7 @@ const ProductsSection3 = () => {
           Text2={
             "Go beyond words: Search with your camera, an image or whatever’s on your screen."
           }
-          backgroundClr={"#FEF7E0"}
+          backgroundclr={"#FEF7E0"}
         />
       </div>
     </div>

@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   padding-top: 60px;
-  cursor: pointer;
   padding-bottom: 60px;
 
   h2 {
@@ -17,4 +16,5 @@
 .gadgets {
   display: flex;
   gap: 30px;
+  cursor: pointer;
 }

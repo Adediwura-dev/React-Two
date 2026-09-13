@@ -3,6 +3,7 @@ import ProductsLogo from "../../components/ui/productsComponent/productsLogo/Pro
 import ProductsHero from "../../Components/ui/productsComponent/productsHero/ProductsHero";
 import ProductsSection1 from "../../Components/ui/productsComponent/productsSection1/ProductsSection1";
 import ProductsSection2 from "../../Components/ui/productsComponent/productsSection2/ProductsSection2";
+import ProductsSection3 from "../../Components/ui/productsComponent/productsSection3/ProductsSection3";
 
 const Products = () => {
     return (
@@ -11,6 +12,7 @@ const Products = () => {
             <ProductsHero/>
             <ProductsSection1/>
             <ProductsSection2/>
+            <ProductsSection3/>
         </div>
     )
 }

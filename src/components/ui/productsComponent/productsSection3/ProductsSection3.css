@@ -1,0 +1,17 @@
+.ProductsSection3-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.ProductsSection3-left {
+  grid-template-rows: 2fr 1fr;
+  display: grid;
+  gap: 10px;
+}
+
+.ProductsSection3-right {
+  grid-template-rows: 1fr 2fr;
+  display: grid;
+  gap: 10px;
+}

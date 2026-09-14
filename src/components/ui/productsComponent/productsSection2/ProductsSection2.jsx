@@ -1,6 +1,6 @@
 import "./ProductsSection2.css";
 import newIcon from "../../../../assets/icon2.png";
-import Button from "../../../reusable/buttons/Button";
+import Button from "../../../../components/reusable/buttons/Button";
 
 const ProductsSection2 = () => {
   return (

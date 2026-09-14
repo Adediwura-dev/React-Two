@@ -17,8 +17,10 @@ const Header = () => {
         <Link to="/products">
           <nav>Products</nav>
         </Link>
+        <Link to="/company-info">
+          <nav>Company Info</nav>
+        </Link>
 
-        <nav>Company Info</nav>
         <nav>News</nav>
       </section>
     </div>

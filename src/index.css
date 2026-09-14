@@ -10,3 +10,826 @@ body {
 h1 {
   margin: 0;
 }
+
+/*
+
+/* =========================================================
+   TABLET — 901px and below
+   ========================================================= */
+
+@media (max-width: 900px) {
+  /* Header */
+
+  .headerContainer {
+    padding: 18px 24px;
+    gap: 30px;
+    overflow: hidden;
+  }
+  .navigation {
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  .navigation::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* AboutHero */
+  .aboutHeroContainer,
+  .aboutHeroContainer .aboutHeroWrapper {
+    height: 75vh;
+    min-height: 550px;
+  }
+  .aboutHeroContainer h1 {
+    font-size: 48px;
+    line-height: 58px;
+    padding: 0 30px;
+  }
+  .aboutHeroContainer p {
+    max-width: 550px;
+    padding: 0 30px;
+  }
+
+  /* AboutSection1 */
+  .sectionOneContainer {
+    flex-wrap: wrap;
+    padding: 50px 30px;
+    gap: 10px;
+  }
+  .cardContainer {
+    width: calc(50% - 40px);
+    max-width: 400px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+
+  /* AboutSection2 */
+  .sectionTwoContainer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 70px 50px;
+  }
+  .innerContainer {
+    max-width: 700px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .innerContainer h2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .sectionTwoContainer > div:last-child {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionTwoContainer > div:last-child img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+  }
+
+  /* AboutSection3 */
+  .sectionThreeContainer {
+    padding: 70px 30px;
+    text-align: center;
+  }
+  .sectionThreeContainer h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  /* AboutSection4 */
+  .sectionFourContainer {
+    padding: 70px 30px;
+  }
+
+  .inner-container {
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+  }
+
+/* ProductsHero */
+  .ProductsHeroContainer {
+    height: auto;
+    min-height: auto;
+    padding: 40px 30px 0;
+    box-sizing: border-box;
+  }
+  .ProductsHeroContainer h1 {
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 700px;
+  }
+  .button-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+    padding: 15px 30px;
+  }
+  .ProductsHeroContainer img {
+    width: 100%;
+    height: auto;
+  }
+  
+/* ProductLogos */
+  .products-logo {
+    height: 150px;
+  }
+
+  .logos {
+    gap: 70px;
+  }
+
+/* ProductsSection1 */
+  .productsSectionOneContainer {
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px 30px;
+  }
+  .cardContainer2 {
+    width: 250px;
+  }
+
+/* ProductsSection2 */
+  .productsSectionTwoContainer {
+    padding: 70px 30px;
+    text-align: center;
+  }
+
+  .productsSectionTwoContainer h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+/* ProductsSection3 */
+  .ProductsSection3-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0 30px;
+  }
+
+  .ProductsSection3-left,
+  .ProductsSection3-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Cardsforproducts2-container,
+  .Cardsforproducts3-container {
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .Cardsforproducts2-container {
+    height: auto;
+    min-height: 500px;
+  }
+
+  .imageContainer3 {
+    width: 100%;
+  }
+
+  .imageContainer3 img {
+    width: 100%;
+    max-width: 500px;
+  }
+
+/* ProductsSection4 */
+  .sectionFourProductsContainer {
+    padding: 70px 30px;
+    text-align: center;
+  }
+
+  .sectionFourProductsContainer h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+/* ProductsSection5 */
+  .ps5Container {
+    padding: 70px 30px;
+    text-align: center;
+  }
+
+  .ps5Container h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .gadgets {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+/* ProductsSection6 */
+  .ProductsSection6-container {
+    padding: 70px 30px 0;
+  }
+
+  .ProductsSection6-container h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .Section6-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ProductsSection6-left,
+  .ProductsSection6-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Carousel */
+  .carousel {
+    padding: 50px 30px;
+    box-sizing: border-box;
+  }
+  .carousel-content {
+    gap: 25px;
+  }
+  .text-section {
+    gap: 25px;
+  }
+  .videoText {
+    min-width: 0;
+  }
+  .videoText h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .video-section {
+    gap: 25px;
+  }
+  .video {
+    height: 350px;
+  }
+
+/* AIProductsSection */
+  .ai-experiments {
+    padding: 70px 30px;
+    box-sizing: border-box;
+  }
+
+  .ai-experiments-header {
+    margin-bottom: 50px;
+  }
+
+  .ai-experiments-header h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .experiment-card {
+    height: 500px;
+  }
+
+  .experiment-content {
+    padding: 40px;
+  }
+
+  .experiment-content h3 {
+    font-size: 32px;
+  }
+}
+
+/* 600px Mobile screen */
+
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+/* Header */
+  .headerContainer {
+    padding: 15px 20px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 85px;
+  }
+
+  .navigation {
+    gap: 18px;
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .aboutNav {
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  /* AboutHero */
+  .aboutHeroContainer,
+  .aboutHeroContainer .aboutHeroWrapper {
+    height: 70vh;
+    min-height: 500px;
+  }
+  .aboutHeroContainer h1 {
+    font-size: 38px;
+    line-height: 46px;
+    padding: 0 20px;
+  }
+
+  .aboutHeroContainer p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 25px;
+  }
+
+/* Buttons */
+  .button {
+    width: auto;
+    max-width: 90%;
+  }
+
+/* AboutSection1 */
+  .sectionOneContainer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+
+  .cardContainer {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 10px 0;
+  }
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+  }
+
+  .cardContainer .desc2 {
+    min-width: 0;
+  }
+
+/* AboutSection2 */
+  .sectionTwoContainer {
+    grid-template-columns: 1fr;
+    padding: 60px 25px;
+    gap: 35px;
+  }
+
+  .innerContainer {
+    width: 100%;
+    padding-left: 0;
+    gap: 25px;
+  }
+
+  .innerContainer h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .innerContainer p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .sectionTwoContainer > div:last-child img {
+    width: 100%;
+    height: auto;
+  }
+
+/* AboutSection3 */
+  .sectionThreeContainer {
+    padding: 60px 25px;
+  }
+
+  .sectionThreeContainer h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .sectionThreeContainer p {
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+/* AboutSection4 */
+  .sectionFourContainer {
+    padding: 50px 20px;
+  }
+
+  .inner-container {
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 20px;
+  }
+
+  .sectionFourContainer h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .sectionFourContainer p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  /* Products for mobile */
+
+/* ProductsHero */
+  .ProductsHeroContainer {
+    padding: 35px 20px 0;
+  }
+
+  .ProductsHeroContainer h1 {
+    font-size: 38px;
+    line-height: 46px;
+    padding-bottom: 25px;
+  }
+
+  .button-box {
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 25px;
+  }
+  .button-box div {
+    text-align: center;
+  }
+  .ProductsHeroContainer img {
+    width: calc(100% + 40px);
+    max-width: none;
+    margin-left: -20px;
+  }
+
+/* ProductLogos */
+  .products-logo {
+    height: 120px;
+  }
+
+  .logos {
+    gap: 50px;
+  }
+
+  .logos img {
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: contain;
+  }
+
+/* ProductsSection1 */
+  .productsSectionOneContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    gap: 10px;
+  }
+
+  .cardContainer2 {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 0;
+  }
+
+/* ProductsSection2 */
+  .productsSectionTwoContainer {
+    padding: 60px 20px;
+  }
+
+  .productsSectionTwoContainer h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+/* ProductsSection3 */
+  .ProductsSection3-container {
+    padding: 0 20px;
+  }
+
+  .Cardsforproducts2-container,
+  .Cardsforproducts3-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .Cardsforproducts2-container {
+    height: auto;
+    min-height: 430px;
+    padding: 25px 15px;
+  }
+
+  .imageContainer3 img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+  }
+
+  .Text2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .Cardsforproducts3-container {
+    height: auto;
+    min-height: 180px;
+    padding: 25px 15px;
+    box-sizing: border-box;
+  }
+
+/* ProductsSection4 */
+  .sectionFourProductsContainer {
+    padding: 60px 20px;
+  }
+
+  .sectionFourProductsContainer h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+/* ProductsSection5 */
+  .ps5Container {
+    padding: 60px 20px;
+  }
+  .ps5Container h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .gadgets {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .gadgets .cardContainer {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+  }
+
+/* ProductsSection6 */
+  .ProductsSection6-container {
+    padding: 60px 20px 0;
+  }
+
+  .ProductsSection6-container h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .Section6-container {
+    width: 100%;
+  }
+
+/* Carousel for mobile */
+  .carouselContainer {
+    margin-top: 0;
+  }
+
+  .carousel {
+    padding: 40px 20px;
+  }
+
+  .carousel-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .text-section {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .videoText {
+    width: 100%;
+  }
+  .videoText h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .videoText p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .video-section {
+    width: 100%;
+    gap: 15px;
+  }
+  .video {
+    height: 280px;
+    min-width: 0;
+  }
+  .arrow-button {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+
+  .carousel-dots {
+    gap: 25px;
+    margin-top: 35px;
+  }
+
+/* AISection */
+  .ai-experiments {
+    padding: 60px 20px;
+  }
+
+  .ai-experiments-header {
+    margin-bottom: 40px;
+  }
+
+  .experiment-icon {
+    margin-bottom: 15px;
+  }
+
+  .experiment-icon img {
+    max-width: 45px;
+  }
+
+  .ai-experiments-header h2 {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .experiment-carousel {
+    gap: 10px;
+  }
+
+  .experiment-cards {
+    width: 100%;
+    min-width: 0;
+  }
+
+  /*
+     On small screens, show only the active card.
+     This keeps the carousel usable instead of squeezing
+     three cards into a tiny viewport.
+  */
+
+  .experiment-card.inactive {
+    display: none;
+  }
+
+  .experiment-card.active {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    height: auto;
+    min-height: 560px;
+  }
+
+  .experiment-card.active .experiment-media {
+    width: 100%;
+    height: 280px;
+    flex-shrink: 0;
+  }
+
+  .experiment-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 25px;
+  }
+
+  .experiment-content h3 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+
+  .experiment-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .experiment-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .experiment-dots {
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+/* Footer */
+  .footer {
+    padding: 50px 20px 30px;
+    box-sizing: border-box;
+  }
+
+  .footer-columns {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .footer-left,
+  .footer-right {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+}
+
+/* 400px screen */
+@media (max-width: 400px) {
+  .headerContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .logo img {
+    width: 75px;
+  }
+
+  .navigation {
+    gap: 14px;
+    font-size: 13px;
+  }
+
+  .aboutHeroContainer h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .aboutHeroContainer p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .innerContainer h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sectionThreeContainer h2,
+  .sectionFourContainer h2,
+  .productsSectionTwoContainer h2,
+  .sectionFourProductsContainer h2,
+  .ps5Container h2,
+  .ProductsSection6-container h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .ProductsHeroContainer h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .videoText h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .ai-experiments-header h2 {
+    font-size: 29px;
+    line-height: 37px;
+  }
+
+  .experiment-card.active {
+    min-height: 520px;
+  }
+
+  .experiment-card.active .experiment-media {
+    height: 240px;
+  }
+
+  .experiment-content {
+    padding: 25px 20px;
+  }
+}

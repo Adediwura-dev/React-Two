@@ -1,4 +1,4 @@
-import "./aboutSectionTwo.css";
+import "./AboutSectionTwo.css";
 import Button from "../../../reusable/buttons/Button";
 import sectionTwoImage from "../../../../assets/Image4.webp";
 

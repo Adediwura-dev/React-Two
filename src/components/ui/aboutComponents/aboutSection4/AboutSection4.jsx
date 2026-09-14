@@ -1,5 +1,5 @@
 import Button from "../../../reusable/buttons/Button"
-import "./aboutSection4.css";
+import "./AboutSection4.css";
 
 const AboutSection4 = () => {
   return (

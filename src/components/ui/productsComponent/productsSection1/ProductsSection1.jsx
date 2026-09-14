@@ -1,6 +1,6 @@
 import "./ProductsSection1.css"
 
-import Cardsforproducts1 from "../../../reusable/cardsforproducts1/cardsforproducts1";
+import Cardsforproducts1 from "../../../reusable/cardsforproducts1/Cardsforproducts1";
 import Card2 from "../../../../assets/about-products-3up-google-store-aug2026-3.webp";
 import Card1 from "../../../../assets/about-products-3up-support.png";
 import Card3 from "../../../../assets/GoogleProducts/imgi_16_support.png";

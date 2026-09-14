@@ -1,6 +1,5 @@
 import "./ProductsHero.css";
 import HeroImg from "../../../../assets/GoogleProducts/imgi_13_mbg2026-product-page-hero-image.webp";
-import Button from "../../../reusable/buttons/Button";
 
 const ProductsHero = () => {
   return (

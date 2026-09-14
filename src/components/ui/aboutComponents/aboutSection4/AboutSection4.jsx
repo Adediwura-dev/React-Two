@@ -1,4 +1,4 @@
-import Button from "../../../reusable/buttons/Button";
+import Button from "../../../reusable/buttons/Button"
 import "./aboutSection4.css";
 
 const AboutSection4 = () => {

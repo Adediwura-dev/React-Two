@@ -1,0 +1,31 @@
+.textForCompany {
+  display: flex;
+  gap: 25px;
+  width: 250px;
+  height: 120px;
+  box-shadow:
+    rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(32, 33, 36);
+    line-height: 28px;
+    padding: 0 15px;
+  }
+}
+
+.imageForCompany {
+  img {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+}
+
+

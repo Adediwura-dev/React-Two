@@ -1,9 +1,9 @@
 .textContainer {
-  background-color: red;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 10px 0;
 
   h2 {
     font-weight: 400;
@@ -12,18 +12,28 @@
     line-height: 72px;
     text-align: center;
     max-width: 1200px;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 1200px) {
   .textContainer {
-    padding-top: 0px;
-    margin-top: 0;
+    /* padding-top: 0px;
+    margin-top: 0; */
     h2 {
-      max-width: 620px;
-      font-size: 48px;
+      text-align: center;
+      max-width: 650px;
+      font-size: 42px;
       line-height: 56px;
       margin-top: 0;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .textContainer h2 {
+    font-size: 32px;
+    line-height: 46px;
+    max-width: 400px;
   }
 }

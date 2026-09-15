@@ -1,6 +1,11 @@
 :root {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* overflow: hidden; */
+  /* height: 100%; */
+  margin: 0;
 }
 
 body {
@@ -111,7 +116,7 @@ h1 {
     box-sizing: border-box;
   }
 
-/* ProductsHero */
+  /* ProductsHero */
   .ProductsHeroContainer {
     height: auto;
     min-height: auto;
@@ -133,8 +138,8 @@ h1 {
     width: 100%;
     height: auto;
   }
-  
-/* ProductLogos */
+
+  /* ProductLogos */
   .products-logo {
     height: 150px;
   }
@@ -143,7 +148,7 @@ h1 {
     gap: 70px;
   }
 
-/* ProductsSection1 */
+  /* ProductsSection1 */
   .productsSectionOneContainer {
     flex-wrap: wrap;
     gap: 5px;
@@ -153,7 +158,7 @@ h1 {
     width: 250px;
   }
 
-/* ProductsSection2 */
+  /* ProductsSection2 */
   .productsSectionTwoContainer {
     padding: 70px 30px;
     text-align: center;
@@ -164,7 +169,7 @@ h1 {
     line-height: 50px;
   }
 
-/* ProductsSection3 */
+  /* ProductsSection3 */
   .ProductsSection3-container {
     flex-direction: column;
     align-items: center;
@@ -201,7 +206,7 @@ h1 {
     max-width: 500px;
   }
 
-/* ProductsSection4 */
+  /* ProductsSection4 */
   .sectionFourProductsContainer {
     padding: 70px 30px;
     text-align: center;
@@ -212,7 +217,7 @@ h1 {
     line-height: 50px;
   }
 
-/* ProductsSection5 */
+  /* ProductsSection5 */
   .ps5Container {
     padding: 70px 30px;
     text-align: center;
@@ -228,7 +233,7 @@ h1 {
     justify-content: center;
   }
 
-/* ProductsSection6 */
+  /* ProductsSection6 */
   .ProductsSection6-container {
     padding: 70px 30px 0;
   }
@@ -252,7 +257,7 @@ h1 {
     align-items: center;
   }
 
-/* Carousel */
+  /* Carousel */
   .carousel {
     padding: 50px 30px;
     box-sizing: border-box;
@@ -277,7 +282,7 @@ h1 {
     height: 350px;
   }
 
-/* AIProductsSection */
+  /* AIProductsSection */
   .ai-experiments {
     padding: 70px 30px;
     box-sizing: border-box;
@@ -308,12 +313,11 @@ h1 {
 /* 600px Mobile screen */
 
 @media (max-width: 600px) {
-
   body {
     overflow-x: hidden;
   }
 
-/* Header */
+  /* Header */
   .headerContainer {
     padding: 15px 20px;
     gap: 20px;
@@ -354,13 +358,13 @@ h1 {
     padding: 0 25px;
   }
 
-/* Buttons */
+  /* Buttons */
   .button {
     width: auto;
     max-width: 90%;
   }
 
-/* AboutSection1 */
+  /* AboutSection1 */
   .sectionOneContainer {
     flex-direction: column;
     padding: 40px 20px;
@@ -383,7 +387,7 @@ h1 {
     min-width: 0;
   }
 
-/* AboutSection2 */
+  /* AboutSection2 */
   .sectionTwoContainer {
     grid-template-columns: 1fr;
     padding: 60px 25px;
@@ -411,7 +415,7 @@ h1 {
     height: auto;
   }
 
-/* AboutSection3 */
+  /* AboutSection3 */
   .sectionThreeContainer {
     padding: 60px 25px;
   }
@@ -427,7 +431,7 @@ h1 {
     text-align: center;
   }
 
-/* AboutSection4 */
+  /* AboutSection4 */
   .sectionFourContainer {
     padding: 50px 20px;
   }
@@ -452,7 +456,7 @@ h1 {
 
   /* Products for mobile */
 
-/* ProductsHero */
+  /* ProductsHero */
   .ProductsHeroContainer {
     padding: 35px 20px 0;
   }
@@ -481,7 +485,7 @@ h1 {
     margin-left: -20px;
   }
 
-/* ProductLogos */
+  /* ProductLogos */
   .products-logo {
     height: 120px;
   }
@@ -496,7 +500,7 @@ h1 {
     object-fit: contain;
   }
 
-/* ProductsSection1 */
+  /* ProductsSection1 */
   .productsSectionOneContainer {
     flex-direction: column;
     align-items: center;
@@ -510,7 +514,7 @@ h1 {
     margin: 10px 0;
   }
 
-/* ProductsSection2 */
+  /* ProductsSection2 */
   .productsSectionTwoContainer {
     padding: 60px 20px;
   }
@@ -520,7 +524,7 @@ h1 {
     line-height: 44px;
   }
 
-/* ProductsSection3 */
+  /* ProductsSection3 */
   .ProductsSection3-container {
     padding: 0 20px;
   }
@@ -559,7 +563,7 @@ h1 {
     box-sizing: border-box;
   }
 
-/* ProductsSection4 */
+  /* ProductsSection4 */
   .sectionFourProductsContainer {
     padding: 60px 20px;
   }
@@ -569,7 +573,7 @@ h1 {
     line-height: 44px;
   }
 
-/* ProductsSection5 */
+  /* ProductsSection5 */
   .ps5Container {
     padding: 60px 20px;
   }
@@ -589,7 +593,7 @@ h1 {
     margin: 10px 0;
   }
 
-/* ProductsSection6 */
+  /* ProductsSection6 */
   .ProductsSection6-container {
     padding: 60px 20px 0;
   }
@@ -603,7 +607,7 @@ h1 {
     width: 100%;
   }
 
-/* Carousel for mobile */
+  /* Carousel for mobile */
   .carouselContainer {
     margin-top: 0;
   }
@@ -653,7 +657,7 @@ h1 {
     margin-top: 35px;
   }
 
-/* AISection */
+  /* AISection */
   .ai-experiments {
     padding: 60px 20px;
   }
@@ -737,7 +741,7 @@ h1 {
     gap: 10px;
   }
 
-/* Footer */
+  /* Footer */
   .footer {
     padding: 50px 20px 30px;
     box-sizing: border-box;
